@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1366 500" style="enable-background:new 0 0 1366 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#81348F;}
+	.st1{fill:#81348F;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#006464;}
+	.st4{fill:#015B62;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+	.st5{fill:#292E75;}
+	.st6{fill:#292E75;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+	.st7{font-family:'Neuropol';}
+	.st8{font-size:277.1827px;}
+</style>
+<g>
+	<g>
+		<g>
+			<circle class="st0" cx="422.69" cy="130.18" r="109.37"/>
+			<circle class="st1" cx="422.69" cy="130.18" r="102.31"/>
+			<g>
+				<path class="st2" d="M399.96,100.53c0,0-27.26,4.54-31.3,28.27v38.87c0,0,9.09,27.76,28.27,24.23c0,0-7.58-19.55,3.03-28.27
+					c12.57-10.34,28.27,1.51,28.27,1.51V107.6c0,0-8.08-7.07-18.17-7.07c0,0,1.51-25.74,23.72-26.25
+					c22.21-0.5,22.21,24.73,22.21,24.73l3.03,71.17l-4.54,1.01l0.5,7.57l-13.63,7.15l-0.5,6.28h46.95v-6.28l-17.67-5.64l-0.5-9.09
+					l-2.21-0.11l-0.33-13.5l-0.44-28.54l-0.66-34.07c0,0-5.53-29.09-33.3-28.87S399.96,100.53,399.96,100.53z"/>
+				<circle class="st2" cx="414.13" cy="179.92" r="14.34"/>
+			</g>
+		</g>
+		<g>
+			<circle class="st3" cx="682.25" cy="130.18" r="109.37"/>
+			<circle class="st4" cx="682.25" cy="130.18" r="102.31"/>
+			<g>
+				<circle class="st2" cx="681.03" cy="70.8" r="4.24"/>
+				<circle class="st2" cx="674.64" cy="100.5" r="2.85"/>
+				<circle class="st2" cx="687.66" cy="100.5" r="2.85"/>
+				<rect x="676.87" y="70.31" class="st2" width="8.34" height="32.86"/>
+				<rect x="674.64" y="97.6" class="st2" width="13.02" height="5.76"/>
+				<ellipse class="st2" cx="681.12" cy="116.69" rx="14.13" ry="10.48"/>
+				<rect x="666.99" y="114.63" class="st2" width="28.26" height="12.54"/>
+				<path class="st2" d="M666.99,131.28h28.26c0,0,14.6,2.81,17.03,28.08s7.11,33.5,7.11,33.5h-13.85l-1.12-19.47l-1.31,19.47
+					h-11.23l-1.68-38l-1.5,38h-14.07l-2.62-37.81l-1.1,37.81h-10.29l-1.5-16.66l-1.68,16.66l-12.35,0.94c0,0,3.93-13.66,3.74-20.4
+					C648.65,166.66,650.15,135.4,666.99,131.28z"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<circle class="st5" cx="941.8" cy="130.18" r="109.37"/>
+				<circle class="st6" cx="941.8" cy="130.18" r="102.31"/>
+			</g>
+			<g>
+				<polygon class="st2" points="881.7,163.92 975.42,71.57 984.19,80.33 891.15,173.37 				"/>
+				<path class="st2" d="M899.24,181.46l-5.89-5.89l93.31-93.31l5.89,5.89l-9.73,9.73l-19.18,41.68l3.26,3.95l-2.39,2.38
+					l36.67,36.94c0,0,1.64,4.38,0,5.48c-1.64,1.1-6.85,0-6.85,0l-36.3-36.3l-2.34,2.59l-5.57-3.71L899.24,181.46z"/>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 7.4937 468.1787)" class="st2 st7 st8">Valmaids</text>
+</g>
+</svg>

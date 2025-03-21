@@ -5,6 +5,7 @@ import  Link  from "next/link"
 import Image from 'next/image'
 import {Button} from "@/components/ui/button"
 import { motion as m } from "framer-motion"
+import logo from "@/public/valmaids-logo.svg"
 
 
 const HeroSection = () => {
@@ -17,8 +18,8 @@ const HeroSection = () => {
                     transition={{duration: 0.8}}
                     className="
                     text-center w-full mx-20 z-50 flex flex-col items-center justify-center">
-                    <div  className="">
-                        <h1 className="text-7xl font-bold text-white">Valmaids</h1>
+                    <div  className="flex flex-col items-center justify-center overflow-hidden">
+                        <Image className="ml-25 overflow-hidden" src={logo} alt="ValMaids Logo" width={550} height={550} />
                         <h2 className="text-3xl text-rose-300">Professional Cleaning Services</h2>
                     </div>
                     <div className="flex flex-col items-center justify-center z-50">

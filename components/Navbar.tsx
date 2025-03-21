@@ -4,6 +4,8 @@ import {NavLinks} from "@/constants/index"
 import Link from "next/link"
 import { IoMenuSharp } from "react-icons/io5"
 import { IoCloseSharp } from "react-icons/io5"
+import Image from "next/image"
+import logo from "@/public/valmaids-logo.svg"
 
 
 const Navbar = () => {
@@ -12,7 +14,7 @@ const Navbar = () => {
         <nav className="flex items-center justify-between p-5 h-5 bg-rose-500 border border-b-2 border-rose-500 fixed w-full z-100">
             <div>
                 <Link className="text-2xl font-bold text-rose-100 hover:text-rose-200" href="/">
-                 Valmaids
+                    <Image width={100} height={100} src={logo} alt="ValMaids Logo" />
                 </Link>
             </div>
             {/* Mobile links */}
