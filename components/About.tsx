@@ -26,6 +26,7 @@ const About = () => {
                       </Button>
                   </div>
             </div>
+            {/* info */}
             <div className="col-span-4 row-span-1 rounded-xl bg-gradient-to-r from-rose-400 to-rose-800">
                 <p className="text-white leading-5 text-center mt-5 sm:mt-2 p-5">Valmaids Cleaning service is available 
                   to help simplify cleaning your home and/or 

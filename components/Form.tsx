@@ -7,13 +7,6 @@ import { Button } from "@/components/ui/button"
 import { motion as m } from "framer-motion"
 import { toast } from "sonner"
 import { info } from "@/constants"
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select"
 import emailjs from '@emailjs/browser'
 import 'react-phone-input-2/lib/style.css'
 

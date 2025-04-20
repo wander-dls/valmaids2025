@@ -11,6 +11,7 @@ import logo from "@/public/valmaids-logo.svg"
 const Navbar = () => {
     const [menuToggle, setMenuToggle] = useState(false)
     return (
+       <>
         <nav className="flex items-center justify-between p-5 h-5 bg-rose-500 border border-b-2 border-rose-500 fixed w-full z-100">
             <div>
                 <Link className="text-2xl font-bold text-rose-100 hover:text-rose-200" href="/">
@@ -48,6 +49,7 @@ const Navbar = () => {
                 </ul>
             </div>
         </nav>
+       </>
     )
 }
 
