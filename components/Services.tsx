@@ -25,7 +25,7 @@ const container = {
 const ServicesSection = () => {
     return (
         <>
-            <section className="h-screen w-full flex flex-col gap-6 justify-center items-center p-2 mt-2" id="services">
+            <section className="h-full w-full flex flex-col gap-6 justify-center items-center p-2 mt-2" id="services">
                 <m.div 
                     variants={container}
                     initial="hidden"
