@@ -11,7 +11,7 @@ import logo from "@/public/valmaids-logo.svg"
 const HeroSection = () => {
     return (
         <>
-            <main className="flex flex-col justify-center items-center relative h-screen">
+            <main className="flex flex-col justify-center items-center relative h-screen" id="home">
                 <m.div
                     initial={{opacity: 0, y: 20}}
                     whileInView={{opacity: 1, y: 0}}
