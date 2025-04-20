@@ -5,7 +5,7 @@ import Link from "next/link"
 
 const Footer = () => {
   return (
-    <footer className="w-full h-20 bg-rose-500 text-white flex flex-col justify-between items-center p-4">
+    <footer className="w-full h-20 bg-purple-500 text-white flex flex-col justify-between items-center p-4">
         <div className="flex gap-4 right-0">
             {FooterLinks.map((link, index) => (
                 <Link key={index} href={link.href}>

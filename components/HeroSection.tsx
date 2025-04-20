@@ -20,11 +20,11 @@ const HeroSection = () => {
                     text-center w-full mx-20 z-50 flex flex-col items-center justify-center">
                     <div  className="flex flex-col items-center justify-center overflow-hidden">
                         <Image className="ml-25 overflow-hidden" src={logo} alt="ValMaids Logo" width={550} height={550} />
-                        <h2 className="text-3xl text-rose-300">Professional Cleaning Services</h2>
+                        <h2 className="text-3xl text-purple-300">Professional Cleaning Services</h2>
                     </div>
                     <div className="flex flex-col items-center justify-center z-50">
                         <p className="text-white mt-4">Book your Cleaning</p>
-                        <Button  className="bg-rose-500 text-white px-4 py-2 rounded-full text-2xl mt-2 drop-shadow-lg">
+                        <Button  className="bg-purple-500 text-white px-4 py-2 rounded-full text-2xl mt-2 drop-shadow-lg">
                             <Link href="/contact">
                                 Now!
                             </Link>

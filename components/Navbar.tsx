@@ -12,7 +12,7 @@ const Navbar = () => {
     const [menuToggle, setMenuToggle] = useState(false)
     return (
        <>
-        <nav className="flex items-center justify-between p-5 h-5 bg-rose-500 border border-b-2 border-rose-500 fixed w-full z-100">
+        <nav className="flex items-center justify-between p-5 h-5 bg-purple-500 border border-b-2 border-purple-500 fixed w-full z-100">
             <div>
                 <Link className="text-2xl font-bold text-rose-100 hover:text-rose-200" href="/">
                     <Image width={100} height={100} src={logo} alt="ValMaids Logo" />
@@ -20,7 +20,7 @@ const Navbar = () => {
             </div>
             {/* Mobile links */}
             <div className={`${menuToggle ? "block" : "hidden"} md:hidden`}>
-                <ul className="flex flex-col mt-40 ml-30 sm:ml-55 w-full justify-center items-center space-y-2 bg-rose-500">
+                <ul className="flex flex-col mt-40 ml-30 sm:ml-55 w-full justify-center items-center space-y-2 bg-purple-500">
                     {NavLinks.map((link) => (
                         <li className="text-rose-100 hover:text-rose-500 hover:bg-rose-100" key={link.title}>
                             <Link href={link.href
