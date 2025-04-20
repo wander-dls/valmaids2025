@@ -5,6 +5,9 @@ import { BiSolidDollarCircle } from "react-icons/bi";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
+// import { FaMapMarkedAlt } from "react-icons/fa";
 
 // Types of constants used in the project
 type Service = {
@@ -12,6 +15,13 @@ type Service = {
     description: string;
     icon: ReactNode;
 
+}
+
+type info = {
+    icon: ReactNode;
+    title: string;
+    description: string;
+    href?: string;
 }
 
 
@@ -87,4 +97,29 @@ export const Socials = [
         icon: React.createElement(FaTwitter),
         href: "https://www.twitter.com/valmaids"
     }
+]
+
+export const info: info[] = [
+    {
+        icon: React.createElement(FaPhoneAlt),
+        title: "Phone",
+        description: "(+1) 347 839 9213",
+        href: "tel:+13474795113"
+    },
+    {
+        icon: React.createElement(FaPhoneAlt),
+        title: "Cell",
+        description: "(+1) 646 240 3342",
+        href: "tel:+13474795113"
+    },
+    {
+        icon: React.createElement(FaEnvelope),
+        title: "Email",
+        description: "Valmaids419@gmail.com",
+    },
+    // {
+    //     icon: React.createElement(FaMapMarkedAlt),
+    //     title: "Location",
+    //     description: "New York, NY",
+    // },
 ]

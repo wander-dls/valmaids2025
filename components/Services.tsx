@@ -25,7 +25,7 @@ const container = {
 const ServicesSection = () => {
     return (
         <>
-            <section className="h-screen w-full flex flex-col gap-6 justify-center items-center" id="services">
+            <section className="h-screen w-full flex flex-col gap-6 justify-center items-center p-2 mt-2" id="services">
                 <m.div 
                     variants={container}
                     initial="hidden"
@@ -35,7 +35,7 @@ const ServicesSection = () => {
                     <div className="w-full flex justify-center items-center -mb-6">
                         <h1 className="uppercase text-rose-500 font-bold text-3xl max-w-2xl mx-auto">What to expect</h1>
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-2 max-w-6xl mx-auto relative">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 max-w-4xl mx-auto relative">
                         {Services.map((service, index) => (
                             <m.div key={index} variants={item} className="text-rose-500 border border-rose-500 rounded-xl p-8 flex flex-col items-center justify-center">
                                 <div className="w-20 h-20 bg-rose-100 rounded-full flex items-center justify-center">

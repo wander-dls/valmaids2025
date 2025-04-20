@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import {
     Select,
     SelectContent,
@@ -5,12 +6,14 @@ import {
     SelectTrigger,
     SelectValue,
   } from "@/components/ui/select"
+import { useState } from "react"
 
 
 
 const SelectBeds = () => {
+    const [bed, setBed] = useState("")
     return (
-        <Select>
+        <Select name="bedrooms" onValueChange={e => setBed(e)}>
             <SelectTrigger className="w-full">
                 <SelectValue placeholder="How many bedrooms" />
             </SelectTrigger>

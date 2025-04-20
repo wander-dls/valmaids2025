@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import {
     Select,
     SelectContent,
@@ -5,12 +6,14 @@ import {
     SelectTrigger,
     SelectValue,
   } from "@/components/ui/select"
+import { useState } from "react"
 
 
 
 const SelectTime = () => {
+    const [time, setTime] = useState("")
     return (
-        <Select>
+        <Select name="name" onValueChange={setTime} defaultValue="what time range">
             <SelectTrigger className="w-full">
                 <SelectValue placeholder="what time range" />
             </SelectTrigger>
