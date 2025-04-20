@@ -1,11 +1,11 @@
 "use client"
 
-import heroImage from "@/public/landing-splash.jpg"
 import  Link  from "next/link"
 import Image from 'next/image'
 import {Button} from "@/components/ui/button"
 import { motion as m } from "framer-motion"
-import logo from "@/public/valmaids-logo.svg"
+import logo from "@/assets/valmaids-logo.svg"
+import heroImage from "@/assets/landing-splash.jpg"
 
 
 const HeroSection = () => {

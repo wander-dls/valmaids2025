@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import aboutImage1 from "@/public/about-image1.jpg"
+import aboutImage1 from "@/assets/about-image1.jpg"
 import Link from "next/link"
 import {Button} from "@/components/ui/button"
 import {motion as m } from "framer-motion"

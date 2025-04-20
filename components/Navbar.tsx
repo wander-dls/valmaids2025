@@ -5,7 +5,7 @@ import Link from "next/link"
 import { IoMenuSharp } from "react-icons/io5"
 import { IoCloseSharp } from "react-icons/io5"
 import Image from "next/image"
-import logo from "@/public/valmaids-logo.svg"
+import logo from "@/assets/valmaids-logo.svg"
 
 
 const Navbar = () => {
